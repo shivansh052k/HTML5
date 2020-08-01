@@ -1,0 +1,37 @@
+/*This is the CSS file to Project_1*/
+
+body{
+	background-color: #B3B3B3;
+	font-size: 125%;
+}
+
+header{
+	background-color: #666666;
+	text-align: center;
+}
+
+h1{
+	color: #ffffff;
+}
+
+nav{
+	font-size: 150%;
+	font-family: "Montserrat Medium";
+}
+
+h2{
+	color: #666666;
+	background-color: #00b7ea;
+}
+
+summary{
+	font-style: normal;
+}
+
+details{
+	font-style: italic;
+}
+
+footer{
+	background-color: #666666;
+}
