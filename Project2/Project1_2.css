@@ -1,27 +1,30 @@
 /*This is the CSS file to Project_1*/
 
 body{
-	background-color: #B3B3B3;
+	background-color: #7EC3B0;
 	font-size: 125%;
 }
 
 header{
-	background-color: #666666;
+	background-color: #E27D60;
 	text-align: center;
+	font-family: "Ananda";
+	
 }
 
 h1{
+	font-size: 300%;
 	color: #ffffff;
 }
 
 nav{
 	font-size: 150%;
-	font-family: "Montserrat Medium";
+	font-family: "Montserrat Medium";	
 }
 
 h2{
-	color: #666666;
-	background-color: #00b7ea;
+	color: #ffffff;
+	background-color: #c38d9e;
 }
 
 summary{
@@ -33,5 +36,5 @@ details{
 }
 
 footer{
-	background-color: #666666;
+	background-color: #E8A87C;
 }
