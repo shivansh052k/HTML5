@@ -1,0 +1,36 @@
+
+header{
+	background:#adadad;
+}
+
+h1{
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:250%;
+}
+
+a{
+	color:black;
+	display:inline-block;
+	background-color:#b9b9b9;
+	font-weight:525;
+}
+
+img{
+	display:none;
+}
+
+h2{
+	color:#0c297b;
+	text-transform:uppercase;	
+	font-size:200%;
+}
+
+section{
+	background-color:#7b7b7d;
+}
+
+p{
+	font-weight:525;
+}
