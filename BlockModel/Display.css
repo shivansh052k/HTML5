@@ -1,0 +1,54 @@
+/*This is the CSS file for the HTML file: Dislay*/
+
+body{
+	background-color: #7EC3B0;
+	font-size: 125%;
+}
+
+section{
+	display: inline-block;
+	width: 30%;
+	margin-right: 2%;
+	float: left;
+}
+
+header{
+	background-color: #E27D60;
+	text-align: center;
+	font-family: "Ananda";
+	
+}
+
+h1{
+	font-size: 300%;
+	color: #ffffff;
+}
+
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: "Montserrat Medium";	
+}
+
+h2{
+	color: #ffffff;
+	background-color: #c38d9e;
+}
+
+summary{
+	font-style: normal;
+}
+
+details{
+	font-style: italic;
+}
+
+footer{
+	height: 100px;
+	clear: both;
+	background-color: #E8A87C;
+}
+
+img{
+	width: 100px;
+}
