@@ -37,6 +37,18 @@ nav a{
 	padding: 10px;
 }
 
+nav a:hover{
+	color: #000000;
+	background-color: #ffffff;
+	border-radius: 12px;
+}
+
+.active{
+	background-color: #767575;
+	color: #ffffff;
+	border: solid #000000 2px;
+}
+
 .left{
 	float: left;
 	background: #777613;
