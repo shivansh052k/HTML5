@@ -1,0 +1,146 @@
+	/*This is the CSS file to Project_1*/
+	/*
+	body{
+		background-color: #7EC3B0;
+		font-size: 125%;
+	}
+
+	section{
+		display: inline-block;
+		width: 30%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	header{
+		background-color: #E27D60;
+		text-align: center;
+		font-family: "Ananda";
+		
+	}
+
+	h1{
+		font-size: 300%;
+		color: #ffffff;
+	}
+
+	nav{
+		font-variant: small-caps;
+		font-size: 150%;
+		font-family: "Montserrat Medium";	
+	}
+
+	h2{
+		color: #ffffff;
+		background-color: #c38d9e;
+	}
+
+	summary{
+		font-style: normal;
+	}
+
+	details{
+		font-style: italic;
+	}
+
+	footer{
+		height: 100px;
+		clear: both;
+		background-color: #E8A87C;
+	}
+
+	img{
+		width: 100px;
+	}
+
+	*/
+
+	body{
+		font-size: 125%;
+		background-color: #7EC3B0;
+		margin: 2%;
+	}
+
+	header, footer{
+		background: #E27D60;
+		background: -webkit-linear-gradient(#E27D60 0%, #E14D22 70%);
+		background: -moz-linear-gradient(#E27D60 0%, #E14D22 70%);
+		background: -ms-linear-gradient(#E27D60 0%, #E14D22 70%);
+		background: -o-linear-gradient(#E27D60 0%, #E14D22 70%);
+		background: linear-gradient(#E27D60 0%, #E14D22 70%);
+	}
+
+	header{
+		text-align: center;
+		padding: 5px;
+	}
+
+	h1{
+		color: #ffffff;
+		font-size: 300%;
+	}
+
+	nav{
+		font-variant: small-caps; 
+		font-size: 150%;
+		font-family: "Montserrat Medium";
+	}
+
+	nav a{
+		margin-right: 10px;
+		display: inline-block;
+		width: 20%;
+		background-color: #ffffff;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-left: 5%;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	nav a:hover{
+		background-color: #000000;
+		color: #ffffff;
+	}
+
+	h2{
+		color: #ffffff;
+		background-color: #c38d9e;
+	}
+
+	.half{
+		display: inline-block;
+		width: 45%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	.whole{
+		clear: both;
+	}
+
+	summary{
+		font-style: normal;
+	}
+
+	details{
+		font-style: italic;
+	}
+
+	footer{
+		height: 100px;
+		clear: both;
+		background-color: #E8A87C;
+	}
+
+	footer a{
+			text-decoration: none;
+			font-weight: bold;
+	}
+
+	footer a:hover{
+		color: #ffffff;
+	}
+
+	img{
+		width: 100px;
