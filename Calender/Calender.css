@@ -1,0 +1,93 @@
+/*Table color, border and border radius*/
+
+table.cal{
+	color: #069271;
+	border-spacing:0;
+	border: solid 3px black;
+	border-radius: 0px 0px 25px 25px;
+}
+
+/*odd rows with diiferent color*/
+tr:nth-child(odd){
+	background-color: #FBEEE6;
+}
+
+/*even rows with diiferent color*/
+tr:nth-child(even){
+	background-color: #CDBB79;
+}
+
+/*We need to curve the corners of the table elements in order
+not to overlay*/
+
+tr:last-child{
+	border-radius: 0px 0px 25px 25px;
+}
+
+tr:last-child>td:first-child{
+	border-radius: 0px 0px 0px 25px;
+}
+
+tr:last-child>td:last-child{
+	border-radius: 	0px 0px 25px 0px;
+}
+
+/*Formatting the Caption of the "Month"*/
+.cal caption{
+	text-transform: uppercase;
+	font-size: 150%;
+	color: #ffffff;
+	background-color: #566573;
+	border-radius: 25px 25px 0px 0px;
+}
+
+/*formating all the elements and attribute*/
+.cla th, .cal td{
+	margin: 2px;
+	padding: 2px;
+}
+
+/*formating the table heading or the "days of the week"*/
+th{
+	background-color: #ffffff;
+	text-align: center;
+}
+
+/*Alignment and size of elements or the "date"*/
+
+.cal td{
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+}
+
+/*Highlighting any holidays*/
+.holiday{
+	margin: 0px;
+	padding: 0px;
+	background-color: #F1948A;
+	color: #ffffff;
+}
+
+/*Now to hide the appointments or to-do work*/
+span{
+	display: block;
+	visibility: hidden;
+	color:#000000;
+	text-align: center;
+}
+
+td:hover>span{
+	visibility: visible;
+}
+
+.old{
+	background-color: #E9FFA2;
+	color: rgba(0, 0, 0, 0.5);
+	border-spacing: 0;
+		
+}
+
+p{
+	font-size:125%;
+}
