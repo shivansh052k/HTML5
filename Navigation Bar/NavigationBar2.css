@@ -1,0 +1,43 @@
+body{
+	margin: 1%;
+	padding: 1%;
+	background-color: #f2f2f2;
+}
+
+nav{
+	box-sizing: border-box;
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #ffffff;
+	padding-left: 60px;
+	overflow: auto;
+	width: 100vh;
+}
+
+nav a{
+	box-sizing:border-box;
+	display:inline-block;
+	height:60px;
+	color: #FFFFFF;
+	background-color:#486B02;
+	text-decoration: none;
+	margin:1% 5% 1% 2%;
+	padding:1% 5%;
+	border-radius: 25px;
+	position: relative;
+
+}
+
+.current{
+	background-color: #767575;
+	color: #ffffff;
+	border: solid #000000 2px;
+}
+
+
+nav a:hover{
+	color: #000000;
+	background-color: #ffffff;
+	border-radius: 35px;
+	border: solid #000000 2px;
+}
