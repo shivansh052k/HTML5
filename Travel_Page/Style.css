@@ -1,0 +1,112 @@
+body{
+	background-color: #1d3557;
+	color: #f1faee;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+h2, h3, p{
+	margin: 0;
+}
+
+#hdr{
+	min-height: 250px;
+	padding-top: 4em;
+	padding-bottom: 0;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.dest{
+	background-color: #e63946;
+	margin: 10px;
+}
+
+.dest-text{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+img{
+	width: 100%;
+}
+
+.dest{
+	width: 40%;
+	display: inline-block;
+}
+
+.btn{
+	text-decoration: none;
+	color: #f1faee;
+	padding: 1em 2em;
+	border: 2px solid #457b9d;
+	display: inline-block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.btn:hover{
+	background-color: #e63946;
+	color: #f1faee;
+}
+
+.hdr-bg{
+	background-image: url('images/Pyramid.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.3;
+	margin: 0;
+}
+
+footer{
+	min-height: 50px; 
+	background-color: #f1faee;
+	color: #1d3557;
+	line-height: 50px;
+}
+
+h2, h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h1{
+	font-size: 300%;
+}
+
+.destinaton h2{
+	font-size: 200%;
+}
+
+.contact{
+	background-color: #a8dadc;
+	color: #1d3557;
+	min-height: 100px;
+}
+
+.prices{
+	background-color: #457b9d;
+	min-height: 100px;
+}
+
+section{
+	padding-bottom: 1em; 
+}
+
+.con{
+	text-decoration: none;
+	color: #1d3557;
+}
+
+.con:hover{
+	color: #e63946;
+	font-size: 120%;
+}
+
